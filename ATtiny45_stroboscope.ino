@@ -38,7 +38,7 @@ delay(5);
 
 //timp0 = timp * timp1 /1023;
 //timp0 = 1000 * timp1 /1023;
-timp0 = analogRead(A3)/500;
+timp0 = analogRead(A3)/5;
 if (timp0 < 25) timp0 = 25;
 
 //pauza0 = pauza * timp2 /1023;
